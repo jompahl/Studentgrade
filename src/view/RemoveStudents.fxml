@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.1" fx:controller="controllers.StudentsController">
+   <children>
+      <AnchorPane layoutX="-7.0" prefHeight="556.0" prefWidth="567.0">
+         <children>
+            <ButtonBar layoutX="14.0" layoutY="194.0" prefHeight="40.0" prefWidth="200.0" />
+            <TableView fx:id="studentRegisterID" layoutX="284.0" layoutY="78.0" prefHeight="200.0" prefWidth="231.0">
+              <columns>
+                <TableColumn prefWidth="75.0" text="StudentID" />
+                <TableColumn prefWidth="75.0" text="Name" />
+                  <TableColumn prefWidth="75.0" text="Column X" />
+              </columns>
+            </TableView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
